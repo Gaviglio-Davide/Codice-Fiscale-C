@@ -220,12 +220,12 @@ void fanno(int *pannonascita, char *pcodicefiscale) {
 
 
   
-   int unità = cifrefinali % 10;
+   int unita = cifrefinali % 10;
 
 
   
    pcodicefiscale[6] = decine + '0';
-   pcodicefiscale[7] = unità + '0';
+   pcodicefiscale[7] = unita + '0';
 }
 
 
